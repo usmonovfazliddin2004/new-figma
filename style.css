@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* lazizbek part */
+
+/* fazliddin part */
+
+@media screen and (max-width: 1025px) {
+  /* lazizbek part */
+
+  /* fazliddin part */
+}
+@media screen and (max-width: 745px) {
+  /* lazizbek part */
+
+  /* fazliddin part */
+}
+
+@media screen and (max-width: 391px) {
+  /* lazizbek part */
+
+  /* fazliddin part */
+}
