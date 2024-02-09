@@ -4,22 +4,449 @@
   box-sizing: border-box;
 }
 /* lazizbek part */
+.wrapper{
+  max-width: 1440px;
+  background-color: #fff;
+}
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+nav{
+  width: 100%;
+  padding: 25px 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav p{
+  color: rgb(0, 0, 0);
+font-family: Kulim Park;
+font-size: 24px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+.home ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+.home ul li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.1px;
+text-align: right;
+}
+nav button{
+  width: 114px;
+  height: 45px;
+  border-radius: 30px;
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
+.icons{
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.line{
+  width: 15px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.next{
+  width: 100%;
+  display: flex;
+  gap: 130px;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 124px;
+}
+.writings{
+  width: 531px;
+  display: flex;
+  flex-direction: column;
+}
+.writings h1{
+  width: 100%;
+  color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 50px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
+}
+.writings p{
+  width: 100%;
+  color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 40px;
+}
+.buttons{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.buttons button{
+  width: 165px;
+  height: 45px;
+  border-radius: 30px;
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background: rgb(255, 207, 35);
+color: rgba(0, 0, 0, 0.84);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
+.buttons span{
+  color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.section-1{
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 64px 150px;
+  /* Anti-Flash White */
+background: rgb(243, 243, 243);
+}
+.each{
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.values{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.each p{
+  width: 100%;
+  color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.1px;
+text-align: left;
+}
+.values p{
+  color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+.section-2{
+  width: 100%;
+  display: flex;
+  gap: 130px;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 150px;
+  background: rgb(0, 0, 0);
+}
+.yozuvlar{
+  width: 503px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.yozuvlar span{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 900;
+line-height: 32px;
+letter-spacing: -0.1px;
+text-align: left;
+}
+.yozuvlar p{
+  width: 100%;
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.1px;
+text-align: left;
+}
+.yozuvlar ul{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: white;
+  margin-left: 16px;
+}
+.yozuvlar ul li p{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.1px;
+text-align: left;
+}
+.double{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+
 
 /* fazliddin part */
 
 @media screen and (max-width: 1025px) {
   /* lazizbek part */
+.wrapper{
+  width: 100%;
+}
+nav{
+  width: 100%;
+  padding: 17px 32px;
+}
+.next{
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.writings{
+  width: 100%;
+  padding: 12px 165px 68px 165px;
+  text-align: center;
+}
+.writings h1{
+  text-align: center;
+}
+.writings p{
+  text-align: center;
+}
+.only-image{
+  width: 100%;
+
+}
+.only-image img{
+  width: 100%;
+}
+.section-1{
+  width: 100%;
+  padding: 39px 32px;
+  display: flex;
+  gap: 0px;
+  justify-content: space-between;
+}
+.each{
+  width: 280px;
+}
+.section-2{
+  width: 100%;
+  padding: 32px 32px 64px 32px;
+  flex-direction: column;
+  gap: 64px;
+}
+.imag{
+  width: 100%;
+}
+.imag img{
+  width: 100%;
+}
+.yozuvlar{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 145px;
+}
+.double{
+  width: 415px;
+}
+
+
+
+
+
+
+
 
   /* fazliddin part */
 }
 @media screen and (max-width: 745px) {
   /* lazizbek part */
+.wrapper{
+  width: 100%;
+}
+nav{
+  padding: 17px 32px;
+}
+.home ul{
+  display: none;
+}
+nav button{
+  display: none;
+}
+.icons{
+  display: flex;
+}
+.next{
+  padding: 24px;
+  gap: 24px;
+}
+.writings{
+  width: 100%;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.writings h1{
+  width: 356px;
+  font-size: 40px;
+  line-height: 48px;
+}
+.writings p{
+  width: 100%;
+  font-size: 18px;
+  line-height: 22px;
+}
+.buttons{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.buttons button{
+  width: 165px;
+  height: 38px;
+}
+.buttons span{
+  font-size: 16px;
+  line-height: 19px;
+}
+.section-1{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px 30px;
+}
+.each{
+  width: 100%;
+  align-items: center;
+}
+.each p{
+  text-align: center;
+}
+.section-2{
+  padding: 24px;
+  gap: 29px;
+}
+.yozuvlar{
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+.double{
+  width: 100%;
+}
+.double p{
+  text-align: center;
+}
+.double span{
+  text-align: center;
+}
+.yozuvlar ul{
+  text-align: center;
+  padding-left: 120px;
+}
+
+
+
+
+
+
+
 
   /* fazliddin part */
 }
 
 @media screen and (max-width: 391px) {
   /* lazizbek part */
+.wrapper{
+  width: 100%;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.buttons span{
+  text-align: center;
+  color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+.yozuvlar ul{
+  padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* fazliddin part */
 }
