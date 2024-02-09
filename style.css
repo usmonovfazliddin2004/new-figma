@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* lazizbek part */
+
+/* fazliddin part */
+.Fazliddin_page1 {
+  width: 1440px;
+  height: 540px;
+  background: #fff;
+  padding: 96px 150px;
+}
+.input {
+  justify-content: space-between;
+  display: flex;
+}
+.page1_box {
+  width: 360px;
+  height: 348px;
+  border-radius: 8px;
+  background: rgb(243, 243, 243);
+  padding: 24px;
+  transition: all 0.2s ease-in;
+}
+.page1_box:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 0 10px 16px rgba(66, 140, 240, 0.5);
+}
+.page1_box p {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+.page1_box img {
+  margin-top: 56px;
+  width: 64px;
+  height: 64px;
+}
+.page1_box h2 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-top: 16px;
+}
+.page1_round {
+  display: flex;
+  margin-left: 500px;
+  margin-bottom: 48px;
+  gap: 16px;
+  margin-top: 40px;
+  display: none;
+}
+.aylana {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background: rgb(243, 243, 243);
+  transition: all 0.2s ease-in;
+}
+.aylana:hover {
+  background: #000;
+  transform: scale(1.2, 1.2);
+}
+.Fazliddin_page2 {
+  width: 1440px;
+  height: 720px;
+  padding: 192px 450px;
+  background: linear-gradient(
+      45deg,
+      rgba(255, 207, 35, 0.7) 0%,
+      rgba(255, 226, 123, 0.7) 100%
+    ),
+    url();
+}
+.time_to {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+.Fazliddin_page2 h1 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  margin-top: 16px;
+  text-align: center;
+  width: 600px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.Fazliddin_page2 button {
+  width: 181px;
+  height: 40px;
+  margin-left: 209.5px;
+  align-items: center;
+  margin-top: 32px;
+  border-radius: 24px;
+  background: rgb(243, 243, 243);
+  border: none;
+  transition: all 0.2s ease-in;
+}
+.Fazliddin_page2 button:hover {
+  transform: scale(1.2, 1.2);
+}
+.Fazliddin_page2 button a {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+.Fazliddin_footer {
+  width: 1440px;
+  height: 348px;
+  padding: 96px 150px;
+  background: rgb(0, 0, 0);
+  display: flex;
+}
+.footer_block {
+  padding: 0px 0px 0px 228px;
+  width: 1140px;
+  height: 156px;
+  display: flex;
+  justify-content: space-between;
+}
+.First_column a {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-top: 16px;
+}
+.footer_links ul li a {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+.footer_links ul {
+  margin: 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer_button {
+  margin-top: 24px;
+  width: 228px;
+  height: 48px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.15);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_button input {
+  width: 120px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+  opacity: 0.5;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  border: none;
+  height: 48px;
+  background: none;
+}
+.Join {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  margin-top: 20px;
+  width: 228px;
+  opacity: 0.4;
+}
+.input_1 {
+  display: flex;
+  gap: 150px;
+}
+@media screen and (max-width: 1025px) {
+  /* lazizbek part */
+
+  /* fazliddin part */
+  .Fazliddin_page1 {
+    width: 1024px;
+    height: 557px;
+    background: #fff;
+    padding: 48px 0px 48px 0px;
+  }
+  .input {
+    justify-content: space-between;
+  }
+  .page1_box {
+    width: 321.33px;
+    height: 376px;
+    padding: 24px;
+  }
+  .page1_box p {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    width: 273px;
+  }
+  .page1_box img {
+    width: 64px;
+    height: 64px;
+    margin-top: 56px;
+  }
+  .page1_box h2 {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 16px;
+  }
+  .page1_round {
+    display: flex;
+    margin-left: 460px;
+  }
+  .Fazliddin_page2 {
+    width: 1024px;
+    height: 528px;
+    padding: 192px 212px 0px 212px;
+  }
+  .time_to {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+  }
+  .Fazliddin_page2 h1 {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: center;
+  }
+  .Fazliddin_footer {
+    width: 1024px;
+    height: 350px;
+    padding: 45px 32px 45px 32px;
+  }
+  .footer_block {
+    padding: 0;
+    display: flex;
+    height: 219px;
+    width: 960px;
+    justify-content: space-between;
+  }
+  .footer_box {
+    margin-top: 75px;
+  }
+  .input_2 {
+    margin-top: 75px;
+  }
+}
+@media screen and (max-width: 745px) {
+  /* lazizbek part */
+
+  /* fazliddin part */
+  .Fazliddin_page1 {
+    width: 744px;
+    height: 486px;
+    padding: 30px 24px 30px 24px;
+  }
+  .input .page1_box:nth-child(3) {
+    display: none;
+  }
+  .input {
+    display: flex;
+    justify-content: space-between;
+  }
+  .input .page1_box:nth-child(1) {
+    width: 340px;
+    height: 376px;
+    padding: 24px;
+  }
+  .input .page1_box:nth-child(2) {
+    width: 340px;
+    height: 376px;
+    padding: 24px;
+  }
+  .page1_round {
+    margin-left: 306px;
+  }
+  .Fazliddin_page2 {
+    width: 744px;
+    height: 528px;
+    padding: 192px 72px 0px 72px;
+  }
+  .Fazliddin_page2 h1 {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: center;
+  }
+  .Fazliddin_footer {
+    width: 744px;
+  }
+  .First_column a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: left;
+  }
+  .input_1 {
+    display: flex;
+    gap: 70px;
+  }
+  .input_2 {
+    margin-top: 75px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  /* lazizbek part */
+
+  /* fazliddin part */
+  .Fazliddin_page1 {
+    width: 390px;
+    height: 476px;
+    padding: 30px 24px 30px 24px;
+  }
+  .input .page1_box:nth-child(2) {
+    display: none;
+  }
+  .input .page1_box:nth-child(1) {
+    width: 340px;
+    height: 366px;
+    padding: 24px;
+  }
+  .page1_round {
+    margin-left: 128px;
+  }
+  .Fazliddin_page2 {
+    width: 390px;
+    height: 528px;
+    padding: 192px 0px 0px 0px;
+  }
+  .time_to {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+  }
+  .Fazliddin_page2 h1 {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-left: 30px;
+    width: 328px;
+  }
+  .Fazliddin_page2 button {
+    margin-left: 100px;
+  }
+  .Fazliddin_footer {
+    width: 390px;
+    height: 520px;
+    padding: 50px 30px 50px 30px;
+    background: #000;
+  }
+  .footer_block {
+    display: flex;
+    flex-direction: column;
+  }
+  .input_1 {
+    display: flex;
+    gap: 40px;
+  }
+  .input_2 .footer_box .First_column a {
+    margin-left: 124.5px;
+    margin-top: 25px;
+  }
+  .footer_button {
+    width: 330px;
+  }
+  .Join {
+    width: 330px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
